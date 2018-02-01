@@ -2,6 +2,35 @@
   text-align: center;
 }
 
+
+.control-label {
+
+font-size: 14px;
+line-height: 1.42857143;
+color: #537092;
+}
+
+.vert-offset-top-0 {
+font-size: 28px;
+line-height: 1.42857143;
+color: #537092;
+
+}
+
+.list-group-item {
+  font-size: 14px;
+line-height: 1.42857143;
+color: #537092;
+text-align: left;
+}
+
+body {
+  background-image: url("./img/mountains.jpg");
+
+
+
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;

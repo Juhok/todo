@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import { Navbar, Nav, NavItem, MenuItem, Grid, NavDropdown, Row, Button, Form, ControlLabel, ButtonToolbar, FormControl, FormGroup} from 'react-bootstrap';
+import { Navbar, Nav, NavItem, MenuItem, Popover, OverlayTrigger, popoverFocus, popoverClickRootClose, Grid, NavDropdown, Row, Button, Form, ControlLabel, ButtonToolbar, FormControl, FormGroup} from 'react-bootstrap';
 
 class App extends Component {
   constructor(props){
@@ -40,10 +40,12 @@ class App extends Component {
       <Navbar>
       <Navbar.Header>
       <Navbar.Brand>
-      <a href="#home">Juho's Task-list</a>
+      <a href="#home"> Juho's Task-list</a>
+
+
       </Navbar.Brand>
       </Navbar.Header>
-   
+
 
       </Navbar>
 
@@ -52,16 +54,16 @@ class App extends Component {
       <br />
 
       <div class="well" data-reactid=".0">          
-      <h1 class="vert-offset-top-0" data-reactid=".0.0">To do:</h1>
+      <h1 class="vert-offset-top-0" data-reactid=".0.0">Things To Do:</h1>
 
 
       <Form inline>
       <FormGroup controlId="form-horizontal">
-      <ControlLabel>Task</ControlLabel>{' '}
+      <ControlLabel class="lead">Task</ControlLabel>{' '}
       <FormControl onChange={ (e)=>this.changeUserInput(e.target.value) } 
       value={this.state.userInput} type="text" placeholder="What to do?" />
       </FormGroup>{' '}
-      <Button type="submit" bsStyle="primary" onClick={()=> this.addToList(this.state.userInput) } >Save Item</Button>
+      <Button type="submit" bsStyle="info" onClick={()=> this.addToList(this.state.userInput) } > <span class="glyphicon glyphicon-plus" aria-hidden="true"></span></Button>
       </Form>
 
       <hr></hr>
@@ -78,8 +80,10 @@ class App extends Component {
       <FormControl onChange={ (e)=>this.changeUserInput(e.target.value) } 
       value={this.state.userInput} type="text" class="form-control" placeholder="What to do?" />
       </FormGroup>{' '}
-      <Button type="submit" bsStyle="primary" onClick={()=> this.addToList(this.state.userInput) } >Save Item</Button>
+      <Button type="submit" bsStyle="info" onClick={()=> this.addToList(this.state.userInput) } > <span class="glyphicon glyphicon-plus" aria-hidden="true"></span></Button>
       </Form>
+
+      <br /><br />
 
       </div>
       </div>
@@ -87,6 +91,5 @@ class App extends Component {
       );
     }
   }
-
 
   export default App;
