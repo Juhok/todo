@@ -9,7 +9,9 @@ This is Juho and I made this small exmaple about one year ago. It uses react and
 
  #3 This comment is created a created a new Branch in SourceTree.
 
- #3 This is a test Branch using sourcetree.
+ #4 This is a test Branch using sourcetree.
+
+ #5 Readme Edits
 
 ## Table of Contents
 
