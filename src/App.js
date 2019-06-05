@@ -10,11 +10,14 @@ class App extends Component {
     this.state = {
       userInput: '',
       list: []
+      
     }
   }
   changeUserInput(input){
     this.setState({
-      userInput: input
+      userInput: input,
+
+
 
 
     });
@@ -28,8 +31,17 @@ class App extends Component {
     this.setState({
       list: listArray,
       userInput: ''
+      
+       
+       
+
+
     })
   }
+
+
+
+  
 
   render() {
     return (
