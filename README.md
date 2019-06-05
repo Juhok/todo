@@ -5,6 +5,8 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 This is Juho and I made this small exmaple about one year ago. It uses react and bootstrap using npm.
 
+ #2 Some new edits for the pull request from my computer.
+
 ## Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)
