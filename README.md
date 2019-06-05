@@ -7,6 +7,8 @@ This is Juho and I made this small exmaple about one year ago. It uses react and
 
  #2 Some new edits for the pull request from my computer.
 
+ #3 This comment is created a created a new Branch in SourceTree.
+
 ## Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)
