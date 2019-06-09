@@ -13,6 +13,8 @@ This is Juho and I made this small exmaple about one year ago. It uses react and
 
  #5 Readme Edits
 
+ #6 Push
+
 ## Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)
