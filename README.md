@@ -15,6 +15,8 @@ This is Juho and I made this small exmaple about one year ago. It uses react and
 
  #6 Push
 
+ #6 Checking the dependencies. Working.
+
 ## Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)
