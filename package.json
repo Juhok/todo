@@ -12,6 +12,7 @@
     "handlebars": "^4.1.2",
     "jquery": "^3.4.1",
     "lodash": "^4.17.14",
+    "lodash.template": "^4.5.0",
     "macaddress": "^0.2.9",
     "nwmatcher": "^1.4.4",
     "package-lock.json": "^1.0.0",
