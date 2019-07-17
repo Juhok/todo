@@ -19,6 +19,8 @@ This is Juho and I made this small exmaple about one year ago. It uses react and
 
  #Check
 
+ #check2
+
 ## Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)
