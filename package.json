@@ -9,9 +9,9 @@
     "clean-css": "^4.2.1",
     "diff": "^4.0.1",
     "gh-pages": "^2.0.1",
-    "handlebars": "^4.1.2",
+    "handlebars": "^4.7.3",
     "jquery": "^3.4.1",
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.15",
     "lodash.template": "^4.5.0",
     "macaddress": "^0.2.9",
     "nwmatcher": "^1.4.4",
@@ -19,8 +19,8 @@
     "querystringify": "^2.1.1",
     "react": "^16.2.0",
     "react-bootstrap": "^0.32.4",
-    "react-dom": "^16.2.0",
-    "react-scripts": "^3.0.1",
+    "react-dom": "^16.13.0",
+    "react-scripts": "^3.4.0",
     "stringstream": "^1.0.0"
   },
   "scripts": {
